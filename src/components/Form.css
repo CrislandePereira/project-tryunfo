@@ -1,0 +1,125 @@
+form {
+  height: 550px;
+  width: 400px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form__input {
+  border: none;
+  border-bottom: 1px solid #3d495c;
+  width: 365px;
+}
+
+label {
+  color: #3d495c;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  border: 1px solid #3d495c;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+}
+
+span {
+  color: #3d495c;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input, textarea {
+  display: block;
+}
+
+.form__group2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  margin-top: 1rem;
+}
+
+p {
+  color: #3d495c;
+  font-family: Verdana , sans-serif;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.each-attr {
+  display: flex;
+  flex-direction: row;
+  height: 37px;
+  justify-content: space-between;
+  width: 365px;
+}
+
+.each-attr > input {
+  width: 275px;
+}
+
+.form__group3 {
+  display: flex;
+  flex-direction: column;
+  height: 113px;
+  justify-content: space-around;
+  margin-top: 1rem;
+  width: 365px;
+}
+
+.total-pontos {
+  font-size: 16px;
+  text-align: end;
+}
+
+.form__group3 > select {
+  border: none;
+  border-bottom: 1px solid #3d495c;
+  color: #3d495c;
+  opacity: 0.9;
+  width: 365px;
+}
+
+.form_group4 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 365px;
+}
+
+.trunfo {
+  margin-right: 120px;
+}
+
+.checkbox {
+  cursor: pointer;
+  height: 16px;
+  outline: none;
+  width: 16px;
+}
+
+.checkbox:checked {
+  background-color: #036b52;
+  color: white;
+}
+
+.salvar {
+  background-color: #2fc18c;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-family: Verdana , sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 115px;
+}

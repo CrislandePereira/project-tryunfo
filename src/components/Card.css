@@ -1,0 +1,126 @@
+.card {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) , -2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 10px;
+  width: 358px;
+}
+
+.border {
+  align-items: center;
+  background-color: #036b52;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 338px;
+}
+
+.content {
+  background-color: white;
+  border-radius: 10px;
+  width: 310px;
+}
+
+.nome {
+  align-items: center;
+  background-color: #023031;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  display: flex;
+  font-family: Epilogue , sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  height: 48px;
+  justify-content: end;
+  width: 310px;
+}
+
+h2 {
+  margin-right: 15px;
+}
+
+.img-card {
+  background-color: #ccc;
+  height: 200px;
+  max-height: 200px;
+  width: 310px;
+}
+
+.description {
+  align-items: center;
+  background-color: #036b52;
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  justify-content: center;
+  margin-top: 0;
+  position: relative;
+  top: -18px;
+  width: 310px;
+}
+
+.description > p {
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+.attrs {
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 310px;
+
+}
+
+.each-attr-card {
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  color: #3d495c;
+  font-family: Epilogue , sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  margin: 5px 0;
+  margin-left: 15px;
+  width: 276px;
+}
+
+.rare {
+  color: black;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 0;
+}
+
+.super-trunfo {
+  align-items: center;
+  background-color: gold;
+  border-radius: 40px;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  left: 232px;
+  padding: 10px;
+  position: relative;
+  top: -67px;
+  vertical-align: middle;
+  width: 80px;
+  z-index: 999999999;
+}
+
+.icon-trunfo {
+  height: 0;
+  width: 0;
+}
